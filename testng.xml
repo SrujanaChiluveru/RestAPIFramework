@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This is Sample testng file need to modify file accordingly -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RestAssured Test Automation Test Suite">
+    <listeners>
+		<listener class-name="api.Utilities.ExtentReportManager"></listener>
+	</listeners>
+    <test name="Regression">
+         <classes>
+             <class name="api.Tests.UserTests"/>
+             <!--class name="api.Tests.UserDataDrivenTests"/-->             
+          </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->
