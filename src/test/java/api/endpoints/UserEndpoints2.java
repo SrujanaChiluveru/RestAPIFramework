@@ -13,11 +13,10 @@ import java.util.ResourceBundle;
 
 public class UserEndpoints2 {
 	
-	//Method to read properties  file
+	//Method to read properties  file and stores properties in bundle object
 	public static ResourceBundle getURL() {
 		
 		ResourceBundle routes=ResourceBundle.getBundle("routes");
-		
 		return routes;
 		
 	}
